@@ -1,0 +1,141 @@
+\hypertarget{main_8cpp}{}\section{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.\+cpp@{main.\+cpp}}
+{\ttfamily \#include $<$windows.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$string.\+h$>$}\\*
+{\ttfamily \#include $<$tchar.\+h$>$}\\*
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$math.\+h$>$}\\*
+{\ttfamily \#include $<$Windowsx.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}model.\+h\char`\"{}}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{main_8cpp_a598a3330b3c21701223ee0ca14316eca}{PI}~(double)3.\+1415
+\item 
+\#define \hyperlink{main_8cpp_a498d9f026138406895e9a34b504ac6a6}{W\+I\+N\+D\+O\+W\+\_\+\+W\+I\+D\+TH}~800
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+L\+R\+E\+S\+U\+LT C\+A\+L\+L\+B\+A\+CK \hyperlink{main_8cpp_a9135ea2a0d6fce68ba3b858226a31a4f}{Wnd\+Proc} (H\+W\+ND, U\+I\+NT, W\+P\+A\+R\+AM, L\+P\+A\+R\+AM)
+\item 
+void \hyperlink{main_8cpp_a21c2335e6df73b1864dd7563f6810caa}{Do\+Physics} (U\+L\+O\+N\+G\+L\+O\+NG dT)
+\item 
+void \hyperlink{main_8cpp_a93ecb4242527b80e76b5e28209f67d2d}{Start\+Game} ()
+\item 
+int W\+I\+N\+A\+PI \hyperlink{main_8cpp_a661c2abc03926acfaeb93b4ae7db4943}{Win\+Main} (H\+I\+N\+S\+T\+A\+N\+CE h\+Instance, H\+I\+N\+S\+T\+A\+N\+CE h\+Prev\+Instance, L\+P\+S\+TR lp\+Cmd\+Line, int n\+Cmd\+Show)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+H\+I\+N\+S\+T\+A\+N\+CE \hyperlink{main_8cpp_a44f41244c97693b2fbd5244bcb1e86ec}{h\+Inst}
+\item 
+\hyperlink{struct_t_lcastle}{T\+Lcastle} \hyperlink{main_8cpp_ae27eb5f0a9384ff54e52ec254c5fe77b}{Lcastle}
+\item 
+\hyperlink{struct_t_rcastle}{T\+Rcastle} \hyperlink{main_8cpp_ad2f22af085e8fb82afc8f7f4c9af7452}{Rcastle}
+\item 
+\hyperlink{struct_t_shot}{T\+Shot} \hyperlink{main_8cpp_a3843683a90279624890b32c8f4658192}{Shot}
+\item 
+\hyperlink{struct_tmap}{Tmap} \hyperlink{main_8cpp_a24f38b0738dbe3f73a0e49a20e8ab9df}{Map}
+\item 
+F\+I\+LE $\ast$ \hyperlink{main_8cpp_ada309aa59bb9aca17267271bd0852231}{F}
+\item 
+double \hyperlink{main_8cpp_a9229eb96c6a2ee46184da664934caa68}{filevalue}
+\item 
+int \hyperlink{main_8cpp_a76f11d9a0a47b94f72c2d0e77fb32240}{n} =0
+\item 
+double \hyperlink{main_8cpp_a4f8f8acfe2d09c519985912ad27f6045}{filemas} \mbox{[}7\mbox{]}
+\item 
+char \hyperlink{main_8cpp_a6c2affe0788e6ba12dce7a51e1bd35c3}{filename} \mbox{[}$\,$\mbox{]} = \char`\"{}file.\+bin \char`\"{}
+\item 
+H\+B\+I\+T\+M\+AP \hyperlink{main_8cpp_a9fc5abab889d6fd98fcc0efdc177bd7e}{h\+Bitmap} = N\+U\+LL
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\index{main.\+cpp@{main.\+cpp}!PI@{PI}}
+\index{PI@{PI}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{PI}{PI}}]{\setlength{\rightskip}{0pt plus 5cm}\#define PI~(double)3.\+1415}\hypertarget{main_8cpp_a598a3330b3c21701223ee0ca14316eca}{}\label{main_8cpp_a598a3330b3c21701223ee0ca14316eca}
+\index{main.\+cpp@{main.\+cpp}!W\+I\+N\+D\+O\+W\+\_\+\+W\+I\+D\+TH@{W\+I\+N\+D\+O\+W\+\_\+\+W\+I\+D\+TH}}
+\index{W\+I\+N\+D\+O\+W\+\_\+\+W\+I\+D\+TH@{W\+I\+N\+D\+O\+W\+\_\+\+W\+I\+D\+TH}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{W\+I\+N\+D\+O\+W\+\_\+\+W\+I\+D\+TH}{WINDOW_WIDTH}}]{\setlength{\rightskip}{0pt plus 5cm}\#define W\+I\+N\+D\+O\+W\+\_\+\+W\+I\+D\+TH~800}\hypertarget{main_8cpp_a498d9f026138406895e9a34b504ac6a6}{}\label{main_8cpp_a498d9f026138406895e9a34b504ac6a6}
+
+
+\subsection{Function Documentation}
+\index{main.\+cpp@{main.\+cpp}!Do\+Physics@{Do\+Physics}}
+\index{Do\+Physics@{Do\+Physics}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Do\+Physics(\+U\+L\+O\+N\+G\+L\+O\+N\+G d\+T)}{DoPhysics(ULONGLONG dT)}}]{\setlength{\rightskip}{0pt plus 5cm}void Do\+Physics (
+\begin{DoxyParamCaption}
+\item[{U\+L\+O\+N\+G\+L\+O\+NG}]{dT}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8cpp_a21c2335e6df73b1864dd7563f6810caa}{}\label{main_8cpp_a21c2335e6df73b1864dd7563f6810caa}
+The function that makes objects move and change statements. Here we make all changes to coords and control of movements. Repeated every timer tick. \index{main.\+cpp@{main.\+cpp}!Start\+Game@{Start\+Game}}
+\index{Start\+Game@{Start\+Game}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Start\+Game()}{StartGame()}}]{\setlength{\rightskip}{0pt plus 5cm}void Start\+Game (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8cpp_a93ecb4242527b80e76b5e28209f67d2d}{}\label{main_8cpp_a93ecb4242527b80e76b5e28209f67d2d}
+Initialization function which is called at the start and every restart of the game. Sets the default parametres for the game objects. \index{main.\+cpp@{main.\+cpp}!Win\+Main@{Win\+Main}}
+\index{Win\+Main@{Win\+Main}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Win\+Main(\+H\+I\+N\+S\+T\+A\+N\+C\+E h\+Instance, H\+I\+N\+S\+T\+A\+N\+C\+E h\+Prev\+Instance, L\+P\+S\+T\+R lp\+Cmd\+Line, int n\+Cmd\+Show)}{WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)}}]{\setlength{\rightskip}{0pt plus 5cm}int W\+I\+N\+A\+PI Win\+Main (
+\begin{DoxyParamCaption}
+\item[{H\+I\+N\+S\+T\+A\+N\+CE}]{h\+Instance, }
+\item[{H\+I\+N\+S\+T\+A\+N\+CE}]{h\+Prev\+Instance, }
+\item[{L\+P\+S\+TR}]{lp\+Cmd\+Line, }
+\item[{int}]{n\+Cmd\+Show}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8cpp_a661c2abc03926acfaeb93b4ae7db4943}{}\label{main_8cpp_a661c2abc03926acfaeb93b4ae7db4943}
+Main function which performs the window-\/creation action and calls main processing function called do\+Physics \begin{DoxyReturn}{Returns}
+h\+Instance, h\+Prev\+Instance, lp\+Cmd\+Line, n\+Cmd\+Show 
+\end{DoxyReturn}
+\index{main.\+cpp@{main.\+cpp}!Wnd\+Proc@{Wnd\+Proc}}
+\index{Wnd\+Proc@{Wnd\+Proc}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Wnd\+Proc(\+H\+W\+N\+D, U\+I\+N\+T, W\+P\+A\+R\+A\+M, L\+P\+A\+R\+A\+M)}{WndProc(HWND, UINT, WPARAM, LPARAM)}}]{\setlength{\rightskip}{0pt plus 5cm}L\+R\+E\+S\+U\+LT C\+A\+L\+L\+B\+A\+CK Wnd\+Proc (
+\begin{DoxyParamCaption}
+\item[{H\+W\+ND}]{h\+Wnd, }
+\item[{U\+I\+NT}]{message, }
+\item[{W\+P\+A\+R\+AM}]{w\+Param, }
+\item[{L\+P\+A\+R\+AM}]{l\+Param}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8cpp_a9135ea2a0d6fce68ba3b858226a31a4f}{}\label{main_8cpp_a9135ea2a0d6fce68ba3b858226a31a4f}
+This switch allows to create background and to assign control keys
+
+\subsection{Variable Documentation}
+\index{main.\+cpp@{main.\+cpp}!F@{F}}
+\index{F@{F}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{F}{F}}]{\setlength{\rightskip}{0pt plus 5cm}F\+I\+LE$\ast$ F}\hypertarget{main_8cpp_ada309aa59bb9aca17267271bd0852231}{}\label{main_8cpp_ada309aa59bb9aca17267271bd0852231}
+\index{main.\+cpp@{main.\+cpp}!filemas@{filemas}}
+\index{filemas@{filemas}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{filemas}{filemas}}]{\setlength{\rightskip}{0pt plus 5cm}double filemas\mbox{[}7\mbox{]}}\hypertarget{main_8cpp_a4f8f8acfe2d09c519985912ad27f6045}{}\label{main_8cpp_a4f8f8acfe2d09c519985912ad27f6045}
+\index{main.\+cpp@{main.\+cpp}!filename@{filename}}
+\index{filename@{filename}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{filename}{filename}}]{\setlength{\rightskip}{0pt plus 5cm}char filename\mbox{[}$\,$\mbox{]} = \char`\"{}file.\+bin \char`\"{}}\hypertarget{main_8cpp_a6c2affe0788e6ba12dce7a51e1bd35c3}{}\label{main_8cpp_a6c2affe0788e6ba12dce7a51e1bd35c3}
+\index{main.\+cpp@{main.\+cpp}!filevalue@{filevalue}}
+\index{filevalue@{filevalue}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{filevalue}{filevalue}}]{\setlength{\rightskip}{0pt plus 5cm}double filevalue}\hypertarget{main_8cpp_a9229eb96c6a2ee46184da664934caa68}{}\label{main_8cpp_a9229eb96c6a2ee46184da664934caa68}
+\index{main.\+cpp@{main.\+cpp}!h\+Bitmap@{h\+Bitmap}}
+\index{h\+Bitmap@{h\+Bitmap}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{h\+Bitmap}{hBitmap}}]{\setlength{\rightskip}{0pt plus 5cm}H\+B\+I\+T\+M\+AP h\+Bitmap = N\+U\+LL}\hypertarget{main_8cpp_a9fc5abab889d6fd98fcc0efdc177bd7e}{}\label{main_8cpp_a9fc5abab889d6fd98fcc0efdc177bd7e}
+The function in which we set all the controls for player. It also contains all the drawing parametres for objects. \begin{DoxyReturn}{Returns}
+h\+Wnd, message, w\+Param, l\+Param 
+\end{DoxyReturn}
+\index{main.\+cpp@{main.\+cpp}!h\+Inst@{h\+Inst}}
+\index{h\+Inst@{h\+Inst}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{h\+Inst}{hInst}}]{\setlength{\rightskip}{0pt plus 5cm}H\+I\+N\+S\+T\+A\+N\+CE h\+Inst}\hypertarget{main_8cpp_a44f41244c97693b2fbd5244bcb1e86ec}{}\label{main_8cpp_a44f41244c97693b2fbd5244bcb1e86ec}
+\index{main.\+cpp@{main.\+cpp}!Lcastle@{Lcastle}}
+\index{Lcastle@{Lcastle}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Lcastle}{Lcastle}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf T\+Lcastle} Lcastle}\hypertarget{main_8cpp_ae27eb5f0a9384ff54e52ec254c5fe77b}{}\label{main_8cpp_ae27eb5f0a9384ff54e52ec254c5fe77b}
+\index{main.\+cpp@{main.\+cpp}!Map@{Map}}
+\index{Map@{Map}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Map}{Map}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Tmap} Map}\hypertarget{main_8cpp_a24f38b0738dbe3f73a0e49a20e8ab9df}{}\label{main_8cpp_a24f38b0738dbe3f73a0e49a20e8ab9df}
+\index{main.\+cpp@{main.\+cpp}!n@{n}}
+\index{n@{n}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{n}{n}}]{\setlength{\rightskip}{0pt plus 5cm}int n =0}\hypertarget{main_8cpp_a76f11d9a0a47b94f72c2d0e77fb32240}{}\label{main_8cpp_a76f11d9a0a47b94f72c2d0e77fb32240}
+\index{main.\+cpp@{main.\+cpp}!Rcastle@{Rcastle}}
+\index{Rcastle@{Rcastle}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Rcastle}{Rcastle}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf T\+Rcastle} Rcastle}\hypertarget{main_8cpp_ad2f22af085e8fb82afc8f7f4c9af7452}{}\label{main_8cpp_ad2f22af085e8fb82afc8f7f4c9af7452}
+\index{main.\+cpp@{main.\+cpp}!Shot@{Shot}}
+\index{Shot@{Shot}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Shot}{Shot}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf T\+Shot} Shot}\hypertarget{main_8cpp_a3843683a90279624890b32c8f4658192}{}\label{main_8cpp_a3843683a90279624890b32c8f4658192}

@@ -1,0 +1,92 @@
+﻿Построение начато 03.06.2016 0:41:34.
+     1>Проект "C:\Users\asus\Documents\Visual Studio 2010\Projects\Kursovik_win\Kursovik_win\Kursovik_win.vcxproj" в узле 2 (целевые объекты build).
+     1>PrepareForBuild:
+         Создание каталога "C:\Users\asus\Documents\Visual Studio 2010\Projects\Kursovik_win\Release\".
+       InitializeBuildStatus:
+         Создание "Release\Kursovik_win.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(520): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+     1>main.cpp(552): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
+     1>main.cpp(689): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(689): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(689): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(689): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(690): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(690): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(691): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(691): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(692): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(692): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(692): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(692): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(693): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(693): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(694): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(694): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(696): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(696): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(697): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(697): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(698): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(698): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(699): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(699): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(700): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(700): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(701): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(701): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(702): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(702): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(703): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(703): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(704): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(704): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(705): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(705): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(706): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(706): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(707): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(707): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(708): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(708): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(709): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(709): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(715): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(715): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(715): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(715): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(722): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(722): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(724): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(724): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>main.cpp(497): warning C4101: pieY: неиспользованная локальная переменная
+     1>main.cpp(497): warning C4101: alpha: неиспользованная локальная переменная
+     1>main.cpp(495): warning C4101: dy: неиспользованная локальная переменная
+     1>main.cpp(486): warning C4101: ps: неиспользованная локальная переменная
+     1>main.cpp(494): warning C4101: xPos: неиспользованная локальная переменная
+     1>main.cpp(497): warning C4101: pieX: неиспользованная локальная переменная
+     1>main.cpp(485): warning C4101: wmId: неиспользованная локальная переменная
+     1>main.cpp(494): warning C4101: yPos: неиспользованная локальная переменная
+     1>main.cpp(485): warning C4101: wmEvent: неиспользованная локальная переменная
+     1>main.cpp(498): warning C4101: r: неиспользованная локальная переменная
+     1>main.cpp(495): warning C4101: dx: неиспользованная локальная переменная
+     1>main.cpp(487): warning C4101: hdc: неиспользованная локальная переменная
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\asus\Documents\Visual Studio 2010\Projects\Kursovik_win\Release\Kursovik_win.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Kursovik_win.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\asus\Documents\Visual Studio 2010\Projects\Kursovik_win\Release\Kursovik_win.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\asus\Documents\Visual Studio 2010\Projects\Kursovik_win\Release\Kursovik_win.lib" /MACHINE:X86 Release\main.obj
+         Создание кода
+         Создание кода завершено
+         Kursovik_win.vcxproj -> C:\Users\asus\Documents\Visual Studio 2010\Projects\Kursovik_win\Release\Kursovik_win.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\asus\Documents\Visual Studio 2010\Projects\Kursovik_win\Release\Kursovik_win.exe;#1" /manifest Release\Kursovik_win.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Release\Kursovik_win.unsuccessfulbuild" удаляется.
+         Обращение к "Release\Kursovik_win.lastbuildstate".
+     1>Построение проекта "C:\Users\asus\Documents\Visual Studio 2010\Projects\Kursovik_win\Kursovik_win\Kursovik_win.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.95
